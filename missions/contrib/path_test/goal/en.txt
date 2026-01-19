@@ -1,0 +1,41 @@
+Mission goal
+============
+
+Lady Squirrel is waiting for you in the castle. She want to go to the flowers Garden without taking any break.
+
+To succeed you need to move Lady Lux in only one command with a direct path from the castle.
+
+
+Useful commands
+===============
+
+cd ..
+  Move to the parent directory (one step back along the path to your
+  current location).
+
+cd LOCATION1/LOCATION2/LOCATION3
+  Make several moves in one command.
+
+pwd
+  Show the path to your current location.
+  Remark: ``pwd`` is an abbreviation for "print working directory".
+
+ls
+  Show a list of locations that are currently accessible.
+  Remark: ``ls`` is an abbreviation of "list".
+
+gsh check
+  Check if the mission objective has been achieved.
+
+gsh reset
+  Restart the mission from the beginning.
+
+
+Remarks
+-------
+
+UPPERCASE words appearing in commands are meta-variables: you need
+to replace them by appropriate (string) values.
+
+Most filesystems treat uppercase and lowercase characters
+differently. Make sure you use the correct path.
