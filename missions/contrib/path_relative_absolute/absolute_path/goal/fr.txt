@@ -19,7 +19,7 @@ mv FICHIER1 FICHIER2 ... FICHIERn REPERTOIRE
   Note : ``mv`` est une abréviation pour "move".
 
 Ctrl-S-c/Ctrl-S-v
-   Dans un terminal la combinaison de touches "control", "maj" and "c" copie une chaîne de caractère dans le presse-papier, et la combinaison  "control", "maj" and "c" de coller depuis le presse-papier.
-
-
+   Dans un terminal la combinaison de touches "control", "maj" and "c"
+   copie une chaîne de caractère dans le presse-papier, et la combinaison
+   "control", "maj" and "c" de coller depuis le presse-papier.
 

@@ -7,8 +7,8 @@ msgstr ""
 msgid "$MISSION_DIR/goal/en.txt"
 msgstr "$MISSION_DIR/goal/en.txt"
 
-msgid "$GSH_HOME/Garden/Flower_Garden"
-msgstr "$GSH_HOME/Garden/Flower_Garden"
+msgid "$GSH_HOME/Garden/Flower_garden"
+msgstr "$GSH_HOME/Garden/Flower_garden"
 
 msgid "What the complete adress of this garden ?"
 msgstr "What the complete adress of this garden ?"
@@ -19,5 +19,5 @@ msgstr "Lady_Squrrel"
 msgid "That's not the right path ..."
 msgstr "That's not the right path ..."
 
-msgid "Do not use the '~' symbol is an abbreviation for the initial directory."
-msgstr "Do not use the '~' symbol is an abbreviation for the initial directory."
+msgid "Do not use the '~' symbol, it is a shortcut."
+msgstr "Do not use the '~' symbol, it is a shortcut."

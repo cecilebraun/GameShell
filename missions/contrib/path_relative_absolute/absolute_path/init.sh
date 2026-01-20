@@ -18,7 +18,7 @@
 #
 # It typically looks like
 _mission_init() {
-  flower_garden="$(eval_gettext '$GSH_HOME/Garden/Flower_Garden')"
+  flower_garden="$(eval_gettext '$GSH_HOME/Garden/Flower_garden')"
 
   sign_file "$MISSION_DIR/ascii-art/squirrel.txt" "$flower_garden/$(gettext "Lady_Squirrel")"
 }

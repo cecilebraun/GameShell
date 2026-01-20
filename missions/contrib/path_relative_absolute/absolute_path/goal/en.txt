@@ -18,7 +18,9 @@ mv FILE1 FILE2 ... FILEn DIRECTORY
   Remark: ``mv`` is an abbreviation of "move".
 
 Ctrl-S-c/Ctrl-S-v
-   In a terminal you can use the combine touch "control", "shift" and "c" to copy a string into the clipboard and  the combine touch "control", "shift" and "c" to paste from the clipboard.
+   In a terminal you can use the combine touch "control", "shift" and "c"
+   to copy a string into the clipboard
+   and  the combine touch "control", "shift" and "c" to paste from the clipboard.
 
 
 

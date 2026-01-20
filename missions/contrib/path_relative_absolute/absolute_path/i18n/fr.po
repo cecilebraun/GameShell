@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# path for the text file containing the goal
+msgid "$MISSION_DIR/goal/en.txt"
+msgstr "$MISSION_DIR/goal/fr.txt"
+
+msgid "$GSH_HOME/Garden/Flower_garden"
+msgstr "$GSH_HOME/Jardin/Jardin_des_fleurs"
+
+msgid "What the complete adress of this garden ?"
+msgstr "Quelle est l'adresse complète de ce jardin ?"
+
+msgid "Lady_Squrrel"
+msgstr "Lady_Squrrel"
+
+msgid "That's not the right path ..."
+msgstr "Ce n'est pas le bon chemin ..."
+
+msgid "Do not use the '~' symbol, it is a shortcut."
+msgstr "N'utilisez pas le symbole '~'. C'est un raccourci."
