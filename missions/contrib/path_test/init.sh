@@ -18,6 +18,11 @@
 #
 # It typically looks like
 _mission_init() {
-  # ...
+  castle="$(eval_gettext '$GSH_HOME/Castle')"
+  flower_garden="$(eval_gettext '$GSH_HOME/Garden/Flower_Garden')"
+
+  rm -f "$flower_garden/$(gettext "Lady_Squirrel")"
+  rm -f "$castle/$(gettext "Lady_Squirrel")"
+  sign_file "$MISSION_DIR/ascii-art/squirrel.txt" "$castle/$(gettext "Lady_Squirrel")"
 }
 _mission_init

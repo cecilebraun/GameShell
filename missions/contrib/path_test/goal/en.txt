@@ -1,24 +1,19 @@
 Mission goal
 ============
 
-Lady Squirrel is waiting for you in the castle. She want to go to the flowers Garden without taking any break.
+Lady Squirrel is waiting for you in the castle. Go and meet her. She want to go to the flowers Garden without taking any break.
 
-To succeed you need to move Lady Lux in only one command with a direct path from the castle.
+To succeed you need to move Lady Lux in only one command with a direct path from the castle while you stay in the castle.
 
 
 Useful commands
 ===============
 
-cd ..
-  Move to the parent directory (one step back along the path to your
-  current location).
-
-cd LOCATION1/LOCATION2/LOCATION3
-  Make several moves in one command.
-
-pwd
-  Show the path to your current location.
-  Remark: ``pwd`` is an abbreviation for "print working directory".
+mv FILE1 FILE2 ... FILEn DIRECTORY
+  Move the files to the directory.
+  Remark: ``mv`` is an abbreviation of "move".
+..
+  The ".." symbol represent the parent directory (one step back along the path to your current location). It is often used for relaive path (path described from where I stand.)
 
 ls
   Show a list of locations that are currently accessible.
@@ -26,9 +21,6 @@ ls
 
 gsh check
   Check if the mission objective has been achieved.
-
-gsh reset
-  Restart the mission from the beginning.
 
 
 Remarks

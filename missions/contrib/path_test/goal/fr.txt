@@ -3,31 +3,25 @@ Objectif
 
 Dans la cours du château Lady Squirrel voudrait aller au Jardin des fleurs sans avoir à s'arrêter en chemin.
 
-Pour réussir cette mission vous devez déplacer Lady Lux au Jardin des fleurs en une seule commande en prenant le chemin à partir du château.
+Pour réussir cette mission vous devez déplacer Lady Lux au Jardin des fleurs en une seule commande en prenant le chemin à partir du château où vous resterez..
 
 Commandes utiles
 ================
 
-cd ..
-  Se déplace dans le répertoire parent (le lieu qui se trouve
-  "avant" le lieu actuel dans la liste donnée par ``pwd``).
+mv FICHIER1 FICHIER2 ... FICHIERn REPERTOIRE
+  Déplace les fichiers vers le répertoire.
+  Note : ``mv`` est une abréviation pour "move".
 
-cd LIEU1/LIEU2/LIEU3
-  Fait plusieurs déplacements avec une commande.
+..
+  Le symbole ".." represente le répertoire parent (le lieu qui se trouve
+  "avant" le lieu actuel dans la liste donnée par ``pwd``). Il est souvent utilié pour les chemins reltifs (chemin à partir de où je me trouve.)
 
 ls
   Liste les lieux accessibles depuis la position actuelle.
   Note : ``ls`` est une abréviation pour "liste".
 
-pwd
-  Affiche la position actuelle.
-  Note : ``pwd`` est une abréviation pour "print working directory".
-
 gsh check
   Vérifie si l'objectif de la mission a été atteint.
-
-gsh reset
-  Ré-initialise la mission au début.
 
 
 Remarque
