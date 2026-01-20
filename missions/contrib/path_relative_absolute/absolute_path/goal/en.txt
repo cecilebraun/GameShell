@@ -1,16 +1,24 @@
 Mission goal
 ============
 
-This file or one of its more complex variants (refer to the documentation) 
-is required.
+Lady Squirrel ask you to join her in the garden.
+When you arrive Lady Squirrel asks you for the absolute path to the flower garden so she will never be lost,
+and could always  reach the beautiful flower garden from anywhere.
 
-It is displayed in its entirety by the command
-  $ gsh goal
-It should describe the goal of the mission.
-
+Run gsh check
 
 Useful commands
 ===============
 
-gsh check
-  Checks that the missions has been completed.
+pwd
+  See the path to your current location.
+
+mv FILE1 FILE2 ... FILEn DIRECTORY
+  Move the files to the directory.
+  Remark: ``mv`` is an abbreviation of "move".
+
+Ctrl-S-c/Ctrl-S-v
+   In a terminal you can use the combine touch "control", "shift" and "c" to copy a string into the clipboard and  the combine touch "control", "shift" and "c" to paste from the clipboard.
+
+
+

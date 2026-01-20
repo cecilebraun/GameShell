@@ -11,6 +11,29 @@
 # It typically looks like
 
 _mission_check() {
-  # ...
+  garden_path="$(gettext "$GSH_HOME/Garden/Flower_Garden")"
+  cat $MISSION_DIR/ascii-art/squirrel.txt
+  printf "%s " "$(gettext "What the complete adress of this garden ?")"
+  read -r response
+
+  #Check if ~ has been used
+
+  if  echo "$response" | grep -q "~"
+  then
+    echo "$(eval_gettext "Do not use the '~' symbol, it is a shortcut.")"
+    return 1
+  fi
+  # If the last character is / add to the correct answer
+  if [[ "${response: -1:1}" = "/" ]]
+  then
+    garden_path=$garden_path"/"
+  fi
+
+  if [ "$response" != "$garden_path" ]
+  then
+    echo "$(eval_gettext "That's not the right path ...")"
+    return 1
+  fi
+  return 0
 }
 _mission_check

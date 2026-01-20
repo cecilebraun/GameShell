@@ -6,3 +6,5 @@
 # inspect the variable $GSH_LAST_ACTION, which can take the following values:
 # assert, check_false, check_true, exit, goto, hard_reset, reset, skip
 # If you need this file, rename it to clean.sh
+
+rm -f "$flower_garden/$(gettext "Lady_Squirrel")"

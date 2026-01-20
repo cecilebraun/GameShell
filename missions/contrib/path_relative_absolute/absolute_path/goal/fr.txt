@@ -1,0 +1,25 @@
+Mission goal
+============
+
+Lady Squirrel vous demande de la rejoindre au jardin des fleurs.
+Elle vous demande alors le chemin complet du jardin des fleurs,
+pour qu'elle ne se perde plus et qu'elle puisse y accéder peu importe
+l'endroit où elle se trouve.
+
+Lancer gsh check
+
+Useful commands
+===============
+
+pwd
+  Affiche la position actuelle.
+
+mv FICHIER1 FICHIER2 ... FICHIERn REPERTOIRE
+  Déplace les fichiers vers le répertoire.
+  Note : ``mv`` est une abréviation pour "move".
+
+Ctrl-S-c/Ctrl-S-v
+   Dans un terminal la combinaison de touches "control", "maj" and "c" copie une chaîne de caractère dans le presse-papier, et la combinaison  "control", "maj" and "c" de coller depuis le presse-papier.
+
+
+

@@ -7,3 +7,5 @@
 #
 # Since it is sourced, it may define environment variables if you really need
 # them, but it should "unset" any local variable it has created.
+
+mkdir -p "$(eval_gettext '$GSH_HOME/Garden/Flower_Garden')"
