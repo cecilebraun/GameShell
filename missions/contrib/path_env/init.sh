@@ -18,6 +18,13 @@
 #
 # It typically looks like
 _mission_init() {
-  # ...
+   [ -z "$GSH_CHEST" ] && GSH_CHEST="$(eval_gettext '$GSH_HOME/Forest/Hut/Chest')"
+  mkdir -p "$GSH_CHEST"
+
+   copy_bin  "$MISSION_DIR"/magicwand.sh "$(eval_gettext '$GSH_HOME/Forest/magicwand')"
+   chmod 444 "$(eval_gettext '$GSH_HOME/Forest')/magicwand"
+   cp "$MISSION_DIR/ascii_art/old_shoes.txt" "$(eval_gettext '$GSH_HOME/Forest/Hut/Chest/old_shoes')"
+   
+
 }
 _mission_init

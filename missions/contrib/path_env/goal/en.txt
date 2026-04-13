@@ -1,12 +1,12 @@
 Mission goal
 ============
 
-This file or one of its more complex variants (refer to the documentation) 
-is required.
+You find a magic formula in the forest near your hut, maybe somebody lost it there.
+Move it in your chest.
 
-It is displayed in its entirety by the command
-  $ gsh goal
-It should describe the goal of the mission.
+You need to make it usable by adding an executable mode.
+
+Test it by transforming the old shoes in your chest.
 
 
 Useful commands
@@ -14,3 +14,20 @@ Useful commands
 
 gsh check
   Checks that the missions has been completed.
+
+mv FILE1 FILE2 ... FILEn DIRECTORY
+  Move the files to the directory.
+  Remark: ``mv`` is an abbreviation of "move".
+
+ls -l
+  List the files with their important meta-data.
+
+  Access permissions are listed first on each line.
+
+chmod [OPTIONS] FILE
+  Modify the permissions for the file (or directory).
+
+  Refer to the manual to discover which options are available.
+
+To execute a file from its repository you need to give its (relative or absolute) path.
+If you are in the same directory you need to use ./the_name_of_your_file.
