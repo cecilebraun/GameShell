@@ -7,13 +7,11 @@ msgstr ""
 msgid "$MISSION_DIR/goal/en.txt"
 msgstr "$MISSION_DIR/goal/en.txt"
 
+msgid "$GSH_HOME/Garden/"
+msgstr "$GSH_HOME/Garden/"
 
-msgid "$GSH_HOME/Forest"
-msgstr "$GSH_HOME/Forest"
-
-
-msgid "$GSH_HOME/Forest/magic_formula"
-msgstr "$GSH_HOME/Forest/magic_formula"
+msgid "$GSH_HOME/Forest/Hut/Chest"
+msgstr "$GSH_HOME/Forest/Hut/Chest"
 
 msgid "Error: file %s not found."
 msgstr "Error: file %s not found."
@@ -27,6 +25,7 @@ msgstr "$GSH_HOME/Forest/Hut/Chest/old_shoes"
 msgid "$GSH_HOME/Forest/Hut/Chest/new_shoes"
 msgstr "$GSH_HOME/Forest/Hut/Chest/new_shoes"
 
+
 msgid "$GSH_HOME/Forest/Hut/Chest/"
 msgstr "$GSH_HOME/Forest/Hut/Chest/"
 
@@ -36,20 +35,27 @@ msgstr "$GSH_HOME/Forest/Hut/Chest/magic_formula"
 msgid "magic_formula"
 msgstr "magic_formula"
 
-msgid "new_shoes"
-msgstr "new_shoes"
-
 msgid "mouse"
 msgstr "mouse"
+
+msgid "horse"
+msgstr "horse"
 
 msgid "$GSH_HOME/Garden/mouse"
 msgstr "$GSH_HOME/Garden/mouse"
 
-msgid "There is no magic formula in your chest!"
-msgstr "There is no magic formula in your chest!"
+msgid "$GSH_HOME/Garden/horse"
+msgstr "$GSH_HOME/Garden/horse"
 
-msgid "The magic formula is not usable"
-msgstr "The magic formula is not usable"
+msgid "You must change your PATH"
+msgstr "You must change your PATH"
 
-msgid "There is no new shoes chest!"
-msgstr "There is no new shoes chest!"
+msgid "The environment variable PATH is not well configured"
+msgstr "The environment variable PATH is not well configured"
+
+msgid "Use your magic formula!"
+msgstr "Use your magic formula!"
+
+msgid "Transform the mouse !"
+msgstr "Transform the mouse !"
+

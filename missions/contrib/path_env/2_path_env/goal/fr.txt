@@ -1,0 +1,33 @@
+Ojectif
+============
+
+Nous pouvons maintenant utiliser notre formule magique. Nous allons
+l'essayer sur la souris qui vit dans le jardin.
+
+Transformer la souris sans bouger ou copier la formule magique.
+
+Pour vous aider, vous devez ajouter le chemin de votre coffre dans la variable
+d'environment PATH.
+
+Ensuite vous pourrez utiliser votre formule de n'importe où !!
+
+
+Commandes utiles
+=================
+
+VAR_ENV=new_value
+  La variable VAR_ENV prend la nouvelle valeur new_value. 
+  $VAR_ENV represents la valeur de la variable VAR_ENV.
+
+echo $VAR_ENV
+  affiche la valeur de la variable VAR_ENV
+
+PATH 
+  La variable d'environnement qui contient l'ensemble des chemins où le shell 
+  cherche des executables.
+  Les chemins sont séparés par des ':'
+
+PATH=$PATH:new_path
+  Ajoute un new path à l'ensemble des chemins déjà contenus dans la variable
+  d'environnement PATH. 
+  

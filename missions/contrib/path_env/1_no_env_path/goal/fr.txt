@@ -1,0 +1,36 @@
+Objectif
+========
+
+Vous trouvere une formule magique à côté de chez vous dans la forêt, 
+quelqu'un a dû la laisser tomber.
+
+Bouger là dans votre Coffre.
+
+Vous devez la rendre utilisable en ajoutant un mode execution à cette formule.
+
+Testez la sur vos vielles chaussures qui se trouvent dans votre coffre.
+
+
+Commandes utiles
+===============
+
+gsh check
+  Checks that the missions has been completed.
+
+mv FICHIER1 FICHIER2 ... FICHIERn REPERTOIRE
+  Déplace les fichiers vers le répertoire.
+  Note : ``mv`` est une abréviation pour "move".
+
+chmod [OPTIONS] FICHIER
+  Modifie les droits d'accès à un fichier ou répertoire.
+  Consultez le début de la page de manuel pour découvrir comment 
+  spécifier les droit d'accès.
+
+ls -l
+  Affiche la liste des fichiers avec leurs métadonnées importantes.
+  Les droits d'accès sont donnés en début de ligne.
+
+
+Pour exécuter un fichier vous devez donner son chemin
+relatif ou absolu.
+Si vous êtes dans le même répertoire vous pouvez utiliser : ./le_nom_du_fichier_exec

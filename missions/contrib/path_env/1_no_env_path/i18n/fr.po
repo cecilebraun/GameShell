@@ -5,51 +5,51 @@ msgstr ""
 
 # path for the text file containing the goal
 msgid "$MISSION_DIR/goal/en.txt"
-msgstr "$MISSION_DIR/goal/en.txt"
+msgstr "$MISSION_DIR/goal/fr.txt"
 
 
 msgid "$GSH_HOME/Forest"
-msgstr "$GSH_HOME/Forest"
+msgstr "$GSH_HOME/Foret"
 
 
 msgid "$GSH_HOME/Forest/magic_formula"
-msgstr "$GSH_HOME/Forest/magic_formula"
+msgstr "$GSH_HOME/Foret/formule_magique"
 
 msgid "Error: file %s not found."
-msgstr "Error: file %s not found."
+msgstr "Erreur : fichier %s non trouvé."
 
 msgid "Error: %s takes one argument."
-msgstr "Error: %s takes one argument !"
+msgstr "Erreur : %s prend un argument !"
 
 msgid "$GSH_HOME/Forest/Hut/Chest/old_shoes"
-msgstr "$GSH_HOME/Forest/Hut/Chest/old_shoes"
+msgstr "$GSH_HOME/Foret/Hutte/Coffre/vielles_shoes"
 
 msgid "$GSH_HOME/Forest/Hut/Chest/new_shoes"
-msgstr "$GSH_HOME/Forest/Hut/Chest/new_shoes"
+msgstr "$GSH_HOME/Foret/Hutte/Coffre/nouvelles_shoes"
 
 msgid "$GSH_HOME/Forest/Hut/Chest/"
-msgstr "$GSH_HOME/Forest/Hut/Chest/"
+msgstr "$GSH_HOME/Foret/Hutte/Coffre/"
 
 msgid "$GSH_HOME/Forest/Hut/Chest/magic_formula"
-msgstr "$GSH_HOME/Forest/Hut/Chest/magic_formula"
+msgstr "$GSH_HOME/Foret/Hutte/Coffre/formule_magique"
 
 msgid "magic_formula"
-msgstr "magic_formula"
+msgstr "formule_magique"
 
 msgid "new_shoes"
-msgstr "new_shoes"
+msgstr "nouvelles_shoes"
 
 msgid "mouse"
-msgstr "mouse"
+msgstr "souris"
 
 msgid "$GSH_HOME/Garden/mouse"
-msgstr "$GSH_HOME/Garden/mouse"
+msgstr "$GSH_HOME/Jardin/souris"
 
 msgid "There is no magic formula in your chest!"
-msgstr "There is no magic formula in your chest!"
+msgstr "La forumle magique n'est pas dans votre coffre"
 
 msgid "The magic formula is not usable"
-msgstr "The magic formula is not usable"
+msgstr "La formule magique n'est pas utilisable"
 
 msgid "There is no new shoes chest!"
-msgstr "There is no new shoes chest!"
+msgstr "Il n'y a pas de nouvelles chaussures dans votre coffre !"

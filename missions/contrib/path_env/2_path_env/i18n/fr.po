@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# path for the text file containing the goal
+msgid "$MISSION_DIR/goal/en.txt"
+msgstr "$MISSION_DIR/goal/fr.txt"
+
+msgid "$GSH_HOME/Garden/"
+msgstr "$GSH_HOME/Jardin/"
+
+msgid "$GSH_HOME/Forest/Hut/Chest"
+msgstr "$GSH_HOME/Foret/Hutte/Coffre"
+
+msgid "Error: file %s not found."
+msgstr "Erreur : fichier %s non trouvé."
+
+msgid "Error: %s takes one argument."
+msgstr "Erreur : %s prend un argument !"
+
+msgid "$GSH_HOME/Forest/Hut/Chest/old_shoes"
+msgstr "$GSH_HOME/Foret/Hutte/Coffre/vielles_shoes"
+
+msgid "$GSH_HOME/Forest/Hut/Chest/new_shoes"
+msgstr "$GSH_HOME/Foret/Hutte/Coffre/nouvelles_shoes"
+
+msgid "$GSH_HOME/Forest/Hut/Chest/"
+msgstr "$GSH_HOME/Foret/Hutte/Coffre/"
+
+msgid "$GSH_HOME/Forest/Hut/Chest/magic_formula"
+msgstr "$GSH_HOME/Foret/Hutte/Coffre/formule_magique"
+
+msgid "magic_formula"
+msgstr "formule_magique"
+
+msgid "new_shoes"
+msgstr "nouvelles_shoes"
+
+msgid "mouse"
+msgstr "souris"
+
+msgid "$GSH_HOME/Garden/mouse"
+msgstr "$GSH_HOME/Jardin/souris"
+
+msgid "horse"
+msgstr "cheval"
+
+
+msgid "$GSH_HOME/Garden/horse"
+msgstr "$GSH_HOME/Garden/cheval"
+
+msgid "You must change your PATH"
+msgstr "Vous devez changer votre PATH"
+
+msgid "The environment variable PATH is not well configured"
+msgstr "Votre variable d'environment  PATH n'est pas bien configurer"
+
+msgid "Use your magic formula!"
+msgstr "Utiliser la formule magique !"
+
+msgid "Transform the mouse !"
+msgstr "Transformer la souris!"
+

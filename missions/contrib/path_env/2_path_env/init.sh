@@ -18,13 +18,18 @@
 #
 # It typically looks like
 _mission_init() {
-   [ -z "$GSH_CHEST" ] && GSH_CHEST="$(eval_gettext '$GSH_HOME/Forest/Hut/Chest')"
-  mkdir -p "$GSH_CHEST"
+  [ -z "$GSH_CHEST" ] && GSH_CHEST="$(eval_gettext '$GSH_HOME/Forest/Hut/Chest')"
+  [ -z "$GSH_GARDEN" ] && GSH_GARDEN="$(eval_gettext '$GSH_HOME/Garden')"
+  copy_bin  "$MISSION_DIR/../0_shared/magic_formula.sh" "$(eval_gettext '$GSH_HOME/Forest/Hut/Chest/magic_formula')"
+  chmod 755 "$GSH_CHEST/magic_formula"
 
-   copy_bin  "$MISSION_DIR"/../0_shared/magic_formula.sh "$(eval_gettext '$GSH_HOME/Forest/magic_formula')"
-   chmod 444 "$(eval_gettext '$GSH_HOME/Forest')/magic_formula"
-   cp "$MISSION_DIR/../0_shared/ascii_art/old_shoes.txt" "$(eval_gettext '$GSH_HOME/Forest/Hut/Chest/old_shoes')"
-   
-
+  #init a new mouse
+  cp "$MISSION_DIR/../0_shared/ascii_art/mouse.txt" "$(eval_gettext '$GSH_HOME/Garden/mouse')"
+  if [ -z "$OLD_PATH" ]
+  then 
+    echo "no old"
+    echo $PATH
+    OLD_PATH=$PATH
+  fi
 }
 _mission_init

@@ -6,9 +6,3 @@
 # inspect the variable $GSH_LAST_ACTION, which can take the following values:
 # assert, check_false, check_true, exit, goto, hard_reset, reset, skip
 # If you need this file, rename it to clean.sh
-
-chest="$(eval_gettext '$GSH_HOME/Forest/Hut/Chest')"
-rm -f "$chest"/new_*
-rm -f "$(eval_gettext '$GSH_HOME/Forest/magic_formula')"
-rm -f "$(eval_gettext '$GSH_HOME/Forest/Hut/Chest/magic_formula')"
-

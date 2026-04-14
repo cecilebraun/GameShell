@@ -29,5 +29,5 @@ chmod [OPTIONS] FILE
 
   Refer to the manual to discover which options are available.
 
-To execute a file from its repository you need to give its (relative or absolute) path.
+To execute a file  you need to give its (relative or absolute) path.
 If you are in the same directory you need to use ./the_name_of_your_file.

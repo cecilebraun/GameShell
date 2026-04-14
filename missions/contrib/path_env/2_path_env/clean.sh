@@ -11,4 +11,5 @@ chest="$(eval_gettext '$GSH_HOME/Forest/Hut/Chest')"
 rm -f "$chest"/new_*
 rm -f "$(eval_gettext '$GSH_HOME/Forest/magic_formula')"
 rm -f "$(eval_gettext '$GSH_HOME/Forest/Hut/Chest/magic_formula')"
-
+rm -f "$(eval_gettext '$GSH_HOME/Garden/mouse')"
+rm -f "$(eval_gettext '$GSH_HOME/Garden/horse')"
